@@ -20,6 +20,6 @@ const site = await fetch("https://www.deno.com");
 
 const html = await site.text();
 
-Deno.writeTextFile('./out/sample.html', html);
+Deno.writeTextFile("./out/sample.html", html);
 
-console.log('html exported.');
+console.log("html exported.");
