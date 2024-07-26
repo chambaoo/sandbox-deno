@@ -18,3 +18,9 @@ deno run --allow-write sample.ts
 # --allow-net / -A
 deno run -A sample.ts
 ```
+
+## run test
+
+```sh
+deno test person_test.ts
+```
