@@ -13,3 +13,8 @@ deno fmt
 ```sh
 deno run --allow-write sample.ts
 ```
+
+```sh
+# --allow-net / -A
+deno run -A sample.ts
+```
