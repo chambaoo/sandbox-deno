@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert";
+import { assertEquals } from "$assert";
 import Person, { sayHello } from "./person.ts";
 
 Deno.test("sayHello function", () => {
