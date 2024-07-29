@@ -32,7 +32,7 @@ const mockTasks: Task[] = [
 
 mockTasks.map((x) => {
     console.log(x.title, '\t',
-        x.assignee ?? 'N/AS', '\t',
+        x.assignee ?? 'N/A', '\t',
         x.startDate?.toLocaleDateString() ?? 'N/A', '\t',
         x.endDate?.toLocaleDateString() ?? 'N/A', '\t',
     );
